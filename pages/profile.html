@@ -11,12 +11,7 @@ required: no-footer
             <img src="/assets/img/avatar.jpeg">
             <img src="/assets/img/barca.png">
         </div>
-        <div class="profile-name">
-            <hgroup>
-                <h4>PENG Ao</h4>
-                <h5><em>Paul</em></h5>
-            </hgroup>
-        </div>
+        <div class="profile-name">{{ site.author }}</div>
         <!-- skills -->
         <div class="profile-icons">
             {% assign skills = site.data.profiles.skills | sort:"info" %}
